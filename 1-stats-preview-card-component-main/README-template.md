@@ -15,7 +15,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ![Desktop Version](/1-stats-preview-card-component-main/design/myDesktopView.jpg)
 **Desktop Version**
 
-![Mobile Version](/1-stats-preview-card-component-main/design/myMobileView.jpg)
+![Mobile Version](/1-stats-preview-card-component-main/design/mobile.jpg)
 **Mobile Version**
 
 
