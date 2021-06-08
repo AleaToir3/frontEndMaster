@@ -12,7 +12,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![](\1-stats-preview-card-component-main\design\myDesktopView.jpg)
+![Desktop Version](/1-stats-preview-card-component-main/design/myDesktopView.jpg)
 
 ## My process
 i start with Desktop Version but next time i don't do that.because is more easy to change Mobile Version to -> Desktop version :)
