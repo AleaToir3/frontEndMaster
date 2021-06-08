@@ -90,11 +90,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 
-deplacer(1, 3)
-deplacer(1, 2)
-deplacer(3, 2)
-deplacer(1, 3)
-deplacer(2, 1)
-deplacer(2, 3)
-deplacer(1, 3)
-deplacer(1, 2)
