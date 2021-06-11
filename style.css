@@ -53,6 +53,8 @@ li{
     font-family: 'Barlow', sans-serif;
     font-style: italic;
 }
+li,.title2{font-weight: 700;}
+
 li:hover{
      cursor: pointer;
 }
