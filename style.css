@@ -1,0 +1,108 @@
+/* POLICE POUR LES NAV  */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;500&display=swap');
+/* txt p card */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+    }
+body{
+    background: #fafafa;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+}
+.top{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.top ul {
+    display: flex;
+    flex-flow: row nowrap;
+    /* border: solid 1px rgb(45, 41, 100); */
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+li::after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px red;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    }
+      
+}
+li:hover:after { transform: scaleX(1);
+ }
+
+li{
+    margin-right: 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+}
+li:hover{
+     cursor: pointer;
+}
+
+
+#profile {
+    border-radius: 50%;
+    height: 3rem;
+    
+}
+
+#logo{
+    height: 2rem;
+}
+h1 ,.bottom{
+
+    font-family: 'Barlow', sans-serif;
+}
+.bottom{
+    
+    border:1px solid rgb(219, 229, 230);
+    padding: 1rem;
+    text-align: center;  
+    }
+
+.card{
+    border: solid 3px red;
+    border-radius: 25px;
+    height: 25rem ;
+    color: rgb(28, 32, 34);
+    width: 350px;
+
+
+}
+.img-card img{
+    width: 100%;
+    border-radius: 25px 25px 0 0 ;
+
+}
+.card p{
+    color: #737373;
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+.text-card {
+    padding: 1.5rem;
+}
+.language{
+    padding: 1rem 0 ;
+}
+
+ 
