@@ -1,8 +1,0 @@
-@media (max-width:1200px) {
-    body{
-        background: red;
-    }
-    h1{
-        text-decoration: underline; 
-    font-style: italic;   }
-}

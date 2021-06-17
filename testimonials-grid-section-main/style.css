@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+
+
+@media (max-width:769px ) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }   
+    body{
+        background: hsl(210, 46%, 95%);
+        font-size: 13px;
+    } 
+
+.card{
+    border-radius: 25px;
+}
+.card img {border-radius: 50%;}
+
+.card-1{background:  hsl(263, 55%, 52%);}
+.card-2{background:hsl(217, 19%, 35%);}
+.card-3{background: hsl(0, 0%, 100%);}
+.card-4{ background: hsl(219, 29%, 14%);}
+.card-5{background:hsl(0, 0%, 100%);}
+
+}
+
+
+
+
+
+
+
+/* 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */

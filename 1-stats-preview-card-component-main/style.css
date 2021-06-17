@@ -12,11 +12,12 @@ body{
     background:hsl(233, 47%, 7%);
     color: white;
     display:flex;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vh;
+    
 }
 
 .container{
@@ -111,12 +112,10 @@ align-items: flex-start;
 
 
 .attribution { font-size: 11px; text-align: center; 
-position: absolute;
-bottom: 50px;
-left:45%;
+align-self: flex-end;
 }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
 
 @media (max-width: 1200px) and (min-width: 100px)  {
 body{
@@ -128,8 +127,7 @@ body{
     height: 100%;
     width: 325px;
     display:flex;
-    flex-flow: wrap column;
-    flex-direction: column-reverse;
+    flex-flow: wrap column-reverse;
 
     justify-content: center;
     align-items: center;
@@ -176,8 +174,4 @@ p{
     margin: 1rem;
 }
 
-.attribution{
-    left: 20%;
-    bottom: 10px;
-}
 }
