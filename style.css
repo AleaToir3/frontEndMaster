@@ -140,7 +140,7 @@ h1{
     align-items:center;
 }
     
-}
+
 .card-contenaire{
     display: flex;
     width: 75%;
@@ -149,7 +149,7 @@ h1{
     align-items: center;
     margin: 0 auto ;
    }
-
+}
     
 
 /* // Medium devices (tablets, 768px and up) */
