@@ -11,11 +11,65 @@
         background: hsl(210, 46%, 95%);
         font-size: 13px;
     } 
-
+.card-container{
+    display: grid;
+    place-items: center;
+    margin: 1rem;}
 .card{
-    border-radius: 25px;
+    border-radius: 15px;
+    width: 350px;
+    padding: 1.8rem;
+    margin: 1rem;
 }
-.card img {border-radius: 50%;}
+.top-card{
+display: grid;
+grid-template-areas: 
+"i t "
+"i v ";
+grid-template-columns: 70px auto;
+
+}
+p{
+    color: hsla(210, 46%, 95%, 0.7);
+    font-size: 0.8rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+}
+h1{
+    color: hsl(0, 0%, 81%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    margin: 0.9rem 0rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+h5{
+    color:  hsl(0, 0%, 81%)    ;
+    margin-bottom: 0.3rem;
+    grid-area: t;
+    align-self: end;}
+h6{
+    color:  hsl(0, 0%, 81%,0.5);
+    grid-area: v;
+}
+
+
+
+
+.card img {border-radius: 50%;
+border: 3px solid rgba(255, 255, 255, 0.25);
+grid-area: i;
+}
+#img-patrick{
+    border-color: hsl(263, 55%, 52%,0.8);
+}
+
+.white-card h5,
+.white-card h6,
+.white-card h1, 
+.white-card p{
+    color:hsl(219, 29%, 14%);
+}
 
 .card-1{background:  hsl(263, 55%, 52%);}
 .card-2{background:hsl(217, 19%, 35%);}
@@ -23,6 +77,12 @@
 .card-4{ background: hsl(219, 29%, 14%);}
 .card-5{background:hsl(0, 0%, 100%);}
 
+
+.attribution { font-size: 11px; text-align: center;
+place-items: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); } 
+
 }
 
 
@@ -31,6 +91,3 @@
 
 
 
-/* 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
