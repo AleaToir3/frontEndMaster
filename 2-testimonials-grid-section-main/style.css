@@ -78,9 +78,11 @@ grid-area: i;
 .card-5{background:hsl(0, 0%, 100%);}
 
 
-.attribution { font-size: 11px; text-align: center;
-place-items: center;
-}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    place-items: center;
+    margin: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); } 
 
 }
