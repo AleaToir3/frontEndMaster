@@ -94,24 +94,26 @@ grid-area: i;
         margin: 0px;
         box-sizing: border-box;
     }   
+
     body{
         background: hsl(210, 46%, 95%);
         font-size: 13px;
+        border: solid 1px red;
+        height: 100vh;
+            
     } 
+    
 .card-container{
     display: grid;
-    place-items: center;
-    margin: 1rem;
     grid-template-areas: 
-    "a a b c"
-    "d e e c";
-    grid-template-columns: repeat ( );
+    "a  a  b  e"
+    "c  d  d  e";
+    border: solid 3px red;
+    grid-gap: 2rem;
 }
 .card{
     border-radius: 15px;
-    width: 350px;
     padding: 1.8rem;
-    margin: 1rem;
 }
 .top-card{
 display: grid;
@@ -166,6 +168,8 @@ grid-area: i;
 .card-1{
     background:  hsl(263, 55%, 52%);
     grid-area: a ;
+    border: 1px red solid;
+    align-self: end;
 }
 .card-2{
     background:hsl(217, 19%, 35%);
@@ -183,16 +187,18 @@ grid-area: i;
     background: hsl(219, 29%, 14%);
     grid-area: d;
 
+
 }
 
 .card-5{
     background:hsl(0, 0%, 100%);
     grid-area:e ;
-
 }
 
+[class^="card"]{
+    height: 80%;
 
-
+}
 .attribution { 
     font-size: 11px;
     text-align: center;
