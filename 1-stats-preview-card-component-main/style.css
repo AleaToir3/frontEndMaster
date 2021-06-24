@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px ;
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background:hsl(233, 47%, 7%);
+    color: white;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    
+}
+
+.container{
+    height: 60%;
+    width: 70%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    background: url("./images/image-header-desktop.jpg")  ;
+    background-position: center center;
+    background-size: cover;      
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.right::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(86, 2, 138, 0.568);
+
+}
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+i{
+    font-style: normal;
+
+}
+h1 i{
+    font-weight: 700;
+    font-size: 2rem;
+    /* color:  hsla(0, 0%, 100%, 0.75); */
+    color:  hsl(277, 64%, 61%);
+}
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: hsl(244, 38%, 16%);
+    padding: 5rem;
+}
+p{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2rem;
+}
+.grillStats{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction:column;
+    width: 100%;
+    margin-right: 4rem;
+}
+.stats{
+
+display:flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: flex-start; 
+}
+
+.stats i:first-child{
+    font-size: 1.3rem;
+    font-weight: 700 ;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+
+
+}
+
+.stats i:last-child{
+    font-size: 0.7rem;
+    /* color: hsla(0, 0%, 100%, 0.75); */
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: .1rem;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; 
+align-self: flex-end;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+
+@media (max-width: 1200px) and (min-width: 100px)  {
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 325px;
+    display:flex;
+    flex-flow: wrap column-reverse;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+.right{
+    background: url("./images/image-header-mobile.jpg")  ;
+    background-position: center center;
+    background-size: cover;     
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    border-radius: 5% 5% 0 0 / 5% 5% 0 0;
+
+}
+.right::after{
+left:0px;
+border-radius: 5% 5% 0 0 / 5% 5% 0 0;
+
+}
+.left{
+    height: auto;
+    width: 100%;
+    padding: 1.5rem;
+    align-content:center ;
+    justify-content: center;
+
+
+}
+p{
+    margin: 1.5rem;
+}
+.stats{
+    flex-flow: column nowrap;
+    align-content: space-around;
+
+
+}
+.grillStats{
+    align-items: center;
+    margin: 1rem;
+}
+
+}

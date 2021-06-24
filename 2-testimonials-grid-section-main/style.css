@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+
+
+@media (max-width:769px ) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }   
+    body{
+        background: hsl(210, 46%, 95%);
+        font-size: 13px;
+    } 
+.card-container{
+    display: grid;
+    place-items: center;
+    margin: 1rem;}
+.card{
+    border-radius: 15px;
+    width: 350px;
+    padding: 1.8rem;
+    margin: 1rem;
+}
+.top-card{
+display: grid;
+grid-template-areas: 
+"i t "
+"i v ";
+grid-template-columns: 70px auto;
+
+}
+p{
+    color: hsla(210, 46%, 95%, 0.7);
+    font-size: 0.8rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+}
+h1{
+    color: hsl(0, 0%, 81%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    margin: 0.9rem 0rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+h5{
+    color:  hsl(0, 0%, 81%)    ;
+    margin-bottom: 0.3rem;
+    grid-area: t;
+    align-self: end;}
+h6{
+    color:  hsl(0, 0%, 81%,0.5);
+    grid-area: v;
+}
+
+
+
+
+.card img {border-radius: 50%;
+border: 3px solid rgba(255, 255, 255, 0.25);
+grid-area: i;
+}
+#img-patrick{
+    border-color: hsl(263, 55%, 52%,0.8);
+}
+
+.white-card h5,
+.white-card h6,
+.white-card h1, 
+.white-card p{
+    color:hsl(219, 29%, 14%);
+}
+
+.card-1{background:  hsl(263, 55%, 52%);}
+.card-2{background:hsl(217, 19%, 35%);}
+.card-3{background: hsl(0, 0%, 100%);}
+.card-4{ background: hsl(219, 29%, 14%);}
+.card-5{background:hsl(0, 0%, 100%);}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    place-items: center;
+    margin: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); } 
+
+}
+
+
+@media (min-width:769px ) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }   
+
+    body{
+        background: hsl(210, 46%, 95%);
+        font-size: 13px;
+        border: solid 1px red;
+        height: 100vh;
+            
+    } 
+    
+.card-container{
+    display: grid;
+    grid-template-areas: 
+    "a  a  b  e"
+    "c  d  d  e";
+    border: solid 3px red;
+    grid-gap: 2rem;
+}
+.card{
+    border-radius: 15px;
+    padding: 1.8rem;
+}
+.top-card{
+display: grid;
+grid-template-areas: 
+"i t "
+"i v ";
+grid-template-columns: 70px auto;
+
+}
+p{
+    color: hsla(210, 46%, 95%, 0.7);
+    font-size: 0.8rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5;
+}
+h1{
+    color: hsl(0, 0%, 81%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    margin: 0.9rem 0rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+h5{
+    color:  hsl(0, 0%, 81%)    ;
+    margin-bottom: 0.3rem;
+    grid-area: t;
+    align-self: end;}
+h6{
+    color:  hsl(0, 0%, 81%,0.5);
+    grid-area: v;
+}
+
+
+
+
+.card img {border-radius: 50%;
+border: 3px solid rgba(255, 255, 255, 0.25);
+grid-area: i;
+}
+#img-patrick{
+    border-color: hsl(263, 55%, 52%,0.8);
+}
+
+.white-card h5,
+.white-card h6,
+.white-card h1, 
+.white-card p{
+    color:hsl(219, 29%, 14%);
+}
+
+.card-1{
+    background:  hsl(263, 55%, 52%);
+    grid-area: a ;
+    border: 1px red solid;
+    align-self: end;
+}
+.card-2{
+    background:hsl(217, 19%, 35%);
+    grid-area: b;
+
+}
+
+.card-3{
+    background: hsl(0, 0%, 100%);
+    grid-area:c ;
+
+}
+
+.card-4{
+    background: hsl(219, 29%, 14%);
+    grid-area: d;
+
+
+}
+
+.card-5{
+    background:hsl(0, 0%, 100%);
+    grid-area:e ;
+}
+
+[class^="card"]{
+    height: 80%;
+
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    place-items: center;
+    margin: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); } 
+
+}
+
+
+
