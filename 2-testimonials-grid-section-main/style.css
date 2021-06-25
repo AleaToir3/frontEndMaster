@@ -98,7 +98,6 @@ grid-area: i;
     body{
         background: hsl(210, 46%, 95%);
         font-size: 13px;
-        border: solid 1px red;
         height: 100vh;
             
     } 
@@ -108,8 +107,9 @@ grid-area: i;
     grid-template-areas: 
     "a  a  b  e"
     "c  d  d  e";
-    border: solid 3px red;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+    width: 80%;
+    margin: auto;
 }
 .card{
     border-radius: 15px;
@@ -165,15 +165,18 @@ grid-area: i;
     color:hsl(219, 29%, 14%);
 }
 
+.card-5.white-card{
+    width: 70%;
+}
 .card-1{
     background:  hsl(263, 55%, 52%);
     grid-area: a ;
-    border: 1px red solid;
     align-self: end;
 }
 .card-2{
     background:hsl(217, 19%, 35%);
     grid-area: b;
+    align-self: end;
 
 }
 
@@ -193,6 +196,10 @@ grid-area: i;
 .card-5{
     background:hsl(0, 0%, 100%);
     grid-area:e ;
+    align-self: center;
+    grid-template-columns: 10px;
+
+
 }
 
 [class^="card"]{
